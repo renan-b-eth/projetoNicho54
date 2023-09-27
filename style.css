@@ -3,6 +3,9 @@
     margin: 0;
     background-color: #001;
 }
+body{
+    cursor: url('/../image/cursor.jpg'), auto;
+}
 .logo{
     margin-top: 5%;
     margin-left: 10%;
@@ -47,4 +50,81 @@
 .logo2{
     margin-top: 100px;
     margin-left: 150px;
+}
+
+.animation {
+    animation: animation 1s;
+}
+
+@keyframes animation {
+    0% {
+        transform: translateX(800px);
+        font-size: 10px;
+    }
+    100% {
+        transform: translateX(0);
+    }
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.animation2 {
+    animation: animation2 1.5s;
+}
+
+@keyframes animation2 {
+    0% {
+        transform: translateX(-400px);
+        font-size: 40px;
+    }
+    100% {
+        transform: translateX(0);
+    }
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.animation3 {
+    animation: animation3 4s;
+}
+
+@keyframes animation3 {
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.animation4 {
+    animation: animation4 10s;
+}
+
+@keyframes animation4{
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.animation5 {
+    animation: animation5 12s;
+}
+
+@keyframes animation5{
+    0% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
